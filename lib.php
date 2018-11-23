@@ -48,8 +48,15 @@ function local_workshopcompare_extend_settings_navigation(settings_navigation $n
     $workshopviewurl = "mod/workshop/view.php";
 
     $stop = strpos(http_build_query($_GET) , '&');
-    $length = $stop - 3;
-    $id = substr(http_build_query($_GET), 3, $length);
+    if ($stop) {
+
+        $length = $stop - 3;
+        $id = substr(http_build_query($_GET), 3, $length);
+    } else {
+
+        $id = substr(http_build_query($_GET), 3);
+    }
+
 
     $isworkshoppage = strpos($pagepath , $workshopviewurl);
 
