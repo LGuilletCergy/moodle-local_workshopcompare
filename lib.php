@@ -37,9 +37,11 @@
  * @param context $context
  */
 
-function local_workshopcompare_extend_settings_navigation(settings_navigation $nav, context $context) {
+function local_workshopcompare_extend_navigation($workshopcomparenode, $course, $module, $cm) {
 
     global $CFG, $DB, $PAGE;
+
+    echo "<div style='display:none'>Test workshopcompare</div>";
 
     $pagepath = $PAGE->url->get_path();
 

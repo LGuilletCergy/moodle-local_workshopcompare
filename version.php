@@ -31,6 +31,6 @@
  * Version file.
  */
 
-$plugin->version = 2018112105;
+$plugin->version = 2018112300;
 $plugin->requires = 2015051100;
 $plugin->component = 'local_workshopcompare';
