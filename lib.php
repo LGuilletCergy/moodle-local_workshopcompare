@@ -41,8 +41,6 @@ function local_workshopcompare_extend_navigation($workshopcomparenode, $course, 
 
     global $CFG, $DB, $PAGE;
 
-    echo "<div style='display:none'>Test workshopcompare</div>";
-
     $pagepath = $PAGE->url->get_path();
 
     // On ne teste pas /mod car strpos renvoie 0 si il trouve en première position.
