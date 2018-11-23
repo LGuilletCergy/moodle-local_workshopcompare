@@ -57,8 +57,9 @@ function local_workshopcompare_extend_settings_navigation(settings_navigation $n
         $id = substr(http_build_query($_GET), 3);
     }
 
-
     $isworkshoppage = strpos($pagepath , $workshopviewurl);
+
+    echo "<div style='display:none'>Pagepath = $pagepath Isworkshop = $isworkshoppage</div>";
 
     if ($isworkshoppage && has_capability('local/workshopcompare:view', $PAGE->context)) {
 
