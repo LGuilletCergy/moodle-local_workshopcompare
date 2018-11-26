@@ -32,6 +32,7 @@
  */
 
 $string['pluginname'] = 'Comparer les notes des ateliers';
+$string['workshopcompare:view'] = 'Voir le bouton';
 $string['csvreviewer'] = 'Tableau des notes attribuées';
 $string['csvauthor'] = 'Tableau des notes reçues';
 $string['downloadcsv'] = 'Télécharger au format CSV';

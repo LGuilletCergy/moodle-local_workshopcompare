@@ -32,6 +32,7 @@
  */
 
 $string['pluginname'] = 'Compare workshop grades';
+$string['workshopcompare:view'] = 'View button';
 $string['csvreviewer'] = 'Grades given';
 $string['csvauthor'] = 'Grades received';
 $string['downloadcsv'] = 'Download CSV file';
