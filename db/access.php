@@ -36,7 +36,7 @@ defined('MOODLE_INTERNAL') || die();
 $capabilities = array(
     'local/workshopcompare:view' => array(
         'captype' => 'read',
-        'contextlevel' => CONTEXT_SYSTEM,
+        'contextlevel' => CONTEXT_COURSE,
         'archetypes' => array(
             'manager' => CAP_ALLOW,
             'teacher' => CAP_ALLOW
