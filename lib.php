@@ -59,7 +59,7 @@ function local_workshopcompare_extend_navigation($workshopcomparenode, $course, 
 
     $isworkshoppage = strpos($pagepath , $workshopviewurl);
 
-    $context = context_course::instance($course->id);
+    //$context = context_course::instance($course->id);
 
     echo "<div style='display:none'>Pagepath = $pagepath Isworkshop = $isworkshoppage</div>";
 
