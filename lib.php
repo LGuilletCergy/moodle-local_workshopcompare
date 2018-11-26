@@ -59,9 +59,11 @@ function local_workshopcompare_extend_navigation($workshopcomparenode, $course, 
 
     $isworkshoppage = strpos($pagepath , $workshopviewurl);
 
+    $context = context_course::instance($course->id);
+
     echo "<div style='display:none'>Pagepath = $pagepath Isworkshop = $isworkshoppage</div>";
 
-    if ($isworkshoppage && has_capability('local/workshopcompare:view', $PAGE->context)) {
+    if ($isworkshoppage && has_capability('local/workshopcompare:view', $context)) {
 
         $coursemodule = $DB->get_record('course_modules', array('id' => $id));
 
