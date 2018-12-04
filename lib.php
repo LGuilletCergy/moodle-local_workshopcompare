@@ -86,9 +86,9 @@ function local_workshopcompare_before_footer() {
         gradesreport = document.getElementsByClassName('box generalbox gradesreport py-3');
         if (gradesreport.length && hiddenworkshop) {
         gradereport = gradesreport[0];
-        hiddenworkshop.style.display = block;
+        hiddenworkshop.style.display = \"block\";
         gradereport.innerHTML += hiddenworkshop.innerHTML ;
-        hiddenworkshop.innerHTML = ;
+        hiddenworkshop.innerHTML = \"\";
         }";
 
     $PAGE->requires->js_init_code("$script;");
