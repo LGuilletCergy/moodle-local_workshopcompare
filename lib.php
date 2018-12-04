@@ -89,7 +89,7 @@ function local_workshopcompare_before_footer() {
         hiddenworkshop.style.display = \"block\";
         gradereport.innerHTML += hiddenworkshop.innerHTML ;
         hiddenworkshop.innerHTML = \"\";
-        }";
+        };";
 
     $PAGE->requires->js_init_code($script);
 }
