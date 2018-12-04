@@ -91,5 +91,5 @@ function local_workshopcompare_before_footer() {
         hiddenworkshop.innerHTML = \"\";
         }";
 
-    $PAGE->requires->js_init_code("$script;");
+    $PAGE->requires->js_init_code($script);
 }
