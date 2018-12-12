@@ -37,7 +37,7 @@
  * @param context $context
  */
 
-function local_workshopcompare_extend_navigation($workshopcomparenode, $course, $module, $cm) {
+function local_workshopcompare_extend_navigation($workshopcomparenode) {
 
     global $CFG, $DB, $PAGE;
 
